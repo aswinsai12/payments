@@ -1,11 +1,14 @@
 {
+"homepage": "https://aswinsai12.github.io/payments",
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --env-file=.env index.js"
+    "start": "nodemon --env-file=.env index.js",
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
