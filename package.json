@@ -1,8 +1,8 @@
 {
-  "homepage": "https://aswinsai12.github/payment",
   "name": "payment-system",
   "version": "0.1.0",
   "private": true,
+  "homepage":"./",
   "dependencies": {
     "axios": "^1.7.9",
     "bcrypt": "^5.1.1",
